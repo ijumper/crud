@@ -1,0 +1,6 @@
+ext {
+
+    postgresJdbcVersion = '9.4.1212'
+    postgres = "org.postgresql:postgresql:$postgresJdbcVersion"
+    gradleVersionsPlugin = 'com.github.ben-manes:gradle-versions-plugin:0.12.0'
+}
