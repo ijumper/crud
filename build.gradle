@@ -1,0 +1,33 @@
+buildscript {
+    apply from: "external-dependencies.gradle"
+
+    dependencies {
+        classpath gradleVersionsPlugin
+    }
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+}
+
+apply plugin: 'java'
+
+
+subprojects {
+    apply plugin: 'java'
+
+
+
+    repositories {
+        jcenter()
+        mavenLocal()
+    }
+
+
+}
+
+allprojects {
+    apply from: "${rootProject.projectDir}/external-dependencies.gradle"
+}
+
+
