@@ -27,3 +27,7 @@ resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/release
 // https://www.lagomframework.com/
 // https://stackoverflow.com/questions/2419566/best-way-to-use-multiple-ssh-private-keys-on-one-client
 // http://osxdaily.com/2016/06/07/reload-bash_profile-zsh-profiles-command-line/
+
+// Kafka
+// https://medium.com/rahasak/kafka-and-zookeeper-with-docker-65cff2c2c34f
+

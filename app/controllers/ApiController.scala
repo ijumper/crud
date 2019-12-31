@@ -21,4 +21,6 @@ class ApiController @Inject()(val controllerComponents: ControllerComponents) ex
   def index() = Action { implicit request: Request[AnyContent] =>
     Ok(views.html.index())
   }
+
+
 }
