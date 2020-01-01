@@ -18,7 +18,7 @@ resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/release
 // Adds additional packages into conf/routes
 // play.sbt.routes.RoutesKeys.routesImport += "uk.co.ijump.binders._"
 
-
+// General
 // https://www.reddit.com/r/scala/comments/4kokyk/how_do_i_get_playslick_20_to_work/
 // https://pedrorijo.com/blog/play-slick-updated/
 // https://www.playframework.com/documentation/2.8.x/PlaySlick
@@ -27,6 +27,10 @@ resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/release
 // https://www.lagomframework.com/
 // https://stackoverflow.com/questions/2419566/best-way-to-use-multiple-ssh-private-keys-on-one-client
 // http://osxdaily.com/2016/06/07/reload-bash_profile-zsh-profiles-command-line/
+
+// Building an API
+// https://developer.lightbend.com/guides/play-rest-api/part-1/index.html
+
 
 // Kafka
 // https://medium.com/rahasak/kafka-and-zookeeper-with-docker-65cff2c2c34f
